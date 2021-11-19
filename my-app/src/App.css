@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header{
+  width: 100vw;
+  height: 12vh;
+  box-shadow: 0 6px 3px rgb(187, 184, 184);
+  display: flex;
+  flex: 100%;
+}
+.left-side{
+  font-size: 3em;
+  display: flex;
+  flex: 50%;
+  align-items: center;
+  padding-left: 15px;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 50%;
+  font-size: 3em;
+  padding-right: 15px;
+}
+.nav-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 3em;
+  display: none ;
+}
+
+nav a{
+  padding-right: 20px;
+}
+
+.nav-btn-clicked{
+  width: 15vw;
+  height: 40vh;
+  background-color: black;
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+ 
+.nav-vertical{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.nav-vertical-ul{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  font-size: 0.7em;
+
+}
+
+@media screen and (max-width: 800px){
+  .navbar{
+    display: none;
+  }
+  .nav-btn{
+    display: flex;
+    flex: 50%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 3em;
+  }
+  
+
+}
+
